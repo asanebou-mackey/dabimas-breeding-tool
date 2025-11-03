@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ダビマス配合</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ダビマス配合</h1>
+  <!-- 種牡馬を選択 -->
+  <label for="sire">種牡馬</label>
+  <select id="sire">
+    <option value="ディープインパクト">ディープインパクト</option>
+    <option value="キングカメハメハ">キングカメハメハ</option>
+    <option value="ロードカナロア">ロードカナロア</option>
+  </select>
+  <!-- 繁殖牝馬を選択 -->
+  <label for="mare">繁殖牝馬：</label>
+  <select id="mare">
+    <option value="ウインドインハーヘア">ウインドインハーヘア</option>
+    <option value="アパパネ">アパパネ</option>
+    <option value="ラヴズオンリーユー">ラヴズオンリーユー</option>
+  </select>
+  <!-- 配合ボタン -->
+  <button id="checkBtn">配合を決定！</button>
+  <!-- 結果表示欄 -->
+  <div id="result"></div>
+  <!-- javascriptファイルを読み込む -->
+  <script src="script.js"></script>
+</body>
+</html>
